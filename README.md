@@ -1,3 +1,3 @@
-# kBox__GistBox_Client_App_For_Mac
+# kBox - GistBox Client App For Mac
 
 This is a macOS client app for GistBox. It's including embeded web page. 
