@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4DE9EAC1D17C3C300B0560E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE9EAB1D17C3C300B0560E /* AppDelegate.swift */; };
+		F4DE9EAE1D17C3C300B0560E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE9EAD1D17C3C300B0560E /* ViewController.swift */; };
+		F4DE9EB01D17C3C300B0560E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DE9EAF1D17C3C300B0560E /* Assets.xcassets */; };
+		F4DE9EB31D17C3C300B0560E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DE9EB11D17C3C300B0560E /* Main.storyboard */; };
+		F4DE9EBE1D17C3C300B0560E /* kBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE9EBD1D17C3C300B0560E /* kBoxTests.swift */; };
+		F4DE9EC91D17C3C300B0560E /* kBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE9EC81D17C3C300B0560E /* kBoxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4DE9EBA1D17C3C300B0560E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4DE9EA01D17C3C300B0560E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DE9EA71D17C3C300B0560E;
+			remoteInfo = GistBox;
+		};
+		F4DE9EC51D17C3C300B0560E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4DE9EA01D17C3C300B0560E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DE9EA71D17C3C300B0560E;
+			remoteInfo = GistBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4DE9EA81D17C3C300B0560E /* kBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DE9EAB1D17C3C300B0560E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4DE9EAD1D17C3C300B0560E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4DE9EAF1D17C3C300B0560E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4DE9EB21D17C3C300B0560E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4DE9EB41D17C3C300B0560E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DE9EB91D17C3C300B0560E /* kBox.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kBox.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DE9EBD1D17C3C300B0560E /* kBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kBoxTests.swift; sourceTree = "<group>"; };
+		F4DE9EBF1D17C3C300B0560E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DE9EC41D17C3C300B0560E /* kBox.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kBox.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DE9EC81D17C3C300B0560E /* kBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kBoxUITests.swift; sourceTree = "<group>"; };
+		F4DE9ECA1D17C3C300B0560E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4DE9EA51D17C3C300B0560E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DE9EB61D17C3C300B0560E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DE9EC11D17C3C300B0560E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4DE9E9F1D17C3C300B0560E = {
+			isa = PBXGroup;
+			children = (
+				F4DE9EAA1D17C3C300B0560E /* kBox */,
+				F4DE9EBC1D17C3C300B0560E /* kBoxTests */,
+				F4DE9EC71D17C3C300B0560E /* kBoxUITests */,
+				F4DE9EA91D17C3C300B0560E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4DE9EA91D17C3C300B0560E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE9EA81D17C3C300B0560E /* kBox.app */,
+				F4DE9EB91D17C3C300B0560E /* kBox.xctest */,
+				F4DE9EC41D17C3C300B0560E /* kBox.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4DE9EAA1D17C3C300B0560E /* kBox */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE9EAB1D17C3C300B0560E /* AppDelegate.swift */,
+				F4DE9EAD1D17C3C300B0560E /* ViewController.swift */,
+				F4DE9EAF1D17C3C300B0560E /* Assets.xcassets */,
+				F4DE9EB11D17C3C300B0560E /* Main.storyboard */,
+				F4DE9EB41D17C3C300B0560E /* Info.plist */,
+			);
+			path = kBox;
+			sourceTree = "<group>";
+		};
+		F4DE9EBC1D17C3C300B0560E /* kBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE9EBD1D17C3C300B0560E /* kBoxTests.swift */,
+				F4DE9EBF1D17C3C300B0560E /* Info.plist */,
+			);
+			path = kBoxTests;
+			sourceTree = "<group>";
+		};
+		F4DE9EC71D17C3C300B0560E /* kBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE9EC81D17C3C300B0560E /* kBoxUITests.swift */,
+				F4DE9ECA1D17C3C300B0560E /* Info.plist */,
+			);
+			path = kBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4DE9EA71D17C3C300B0560E /* kBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DE9ECD1D17C3C300B0560E /* Build configuration list for PBXNativeTarget "kBox" */;
+			buildPhases = (
+				F4DE9EA41D17C3C300B0560E /* Sources */,
+				F4DE9EA51D17C3C300B0560E /* Frameworks */,
+				F4DE9EA61D17C3C300B0560E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kBox;
+			productName = GistBox;
+			productReference = F4DE9EA81D17C3C300B0560E /* kBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4DE9EB81D17C3C300B0560E /* kBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DE9ED01D17C3C300B0560E /* Build configuration list for PBXNativeTarget "kBoxTests" */;
+			buildPhases = (
+				F4DE9EB51D17C3C300B0560E /* Sources */,
+				F4DE9EB61D17C3C300B0560E /* Frameworks */,
+				F4DE9EB71D17C3C300B0560E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4DE9EBB1D17C3C300B0560E /* PBXTargetDependency */,
+			);
+			name = kBoxTests;
+			productName = GistBoxTests;
+			productReference = F4DE9EB91D17C3C300B0560E /* kBox.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4DE9EC31D17C3C300B0560E /* kBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DE9ED31D17C3C300B0560E /* Build configuration list for PBXNativeTarget "kBoxUITests" */;
+			buildPhases = (
+				F4DE9EC01D17C3C300B0560E /* Sources */,
+				F4DE9EC11D17C3C300B0560E /* Frameworks */,
+				F4DE9EC21D17C3C300B0560E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4DE9EC61D17C3C300B0560E /* PBXTargetDependency */,
+			);
+			name = kBoxUITests;
+			productName = GistBoxUITests;
+			productReference = F4DE9EC41D17C3C300B0560E /* kBox.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4DE9EA01D17C3C300B0560E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KorhanOzbek;
+				TargetAttributes = {
+					F4DE9EA71D17C3C300B0560E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F4DE9EB81D17C3C300B0560E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F4DE9EA71D17C3C300B0560E;
+					};
+					F4DE9EC31D17C3C300B0560E = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F4DE9EA71D17C3C300B0560E;
+					};
+				};
+			};
+			buildConfigurationList = F4DE9EA31D17C3C300B0560E /* Build configuration list for PBXProject "kBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4DE9E9F1D17C3C300B0560E;
+			productRefGroup = F4DE9EA91D17C3C300B0560E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4DE9EA71D17C3C300B0560E /* kBox */,
+				F4DE9EB81D17C3C300B0560E /* kBoxTests */,
+				F4DE9EC31D17C3C300B0560E /* kBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4DE9EA61D17C3C300B0560E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DE9EB01D17C3C300B0560E /* Assets.xcassets in Resources */,
+				F4DE9EB31D17C3C300B0560E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DE9EB71D17C3C300B0560E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DE9EC21D17C3C300B0560E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4DE9EA41D17C3C300B0560E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DE9EAE1D17C3C300B0560E /* ViewController.swift in Sources */,
+				F4DE9EAC1D17C3C300B0560E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DE9EB51D17C3C300B0560E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DE9EBE1D17C3C300B0560E /* kBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DE9EC01D17C3C300B0560E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DE9EC91D17C3C300B0560E /* kBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4DE9EBB1D17C3C300B0560E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4DE9EA71D17C3C300B0560E /* kBox */;
+			targetProxy = F4DE9EBA1D17C3C300B0560E /* PBXContainerItemProxy */;
+		};
+		F4DE9EC61D17C3C300B0560E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4DE9EA71D17C3C300B0560E /* kBox */;
+			targetProxy = F4DE9EC51D17C3C300B0560E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4DE9EB11D17C3C300B0560E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DE9EB21D17C3C300B0560E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4DE9ECB1D17C3C300B0560E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4DE9ECC1D17C3C300B0560E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4DE9ECE1D17C3C300B0560E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = kBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KorhanOzbek.kBox;
+				PRODUCT_NAME = kBox;
+			};
+			name = Debug;
+		};
+		F4DE9ECF1D17C3C300B0560E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = kBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KorhanOzbek.kBox;
+				PRODUCT_NAME = kBox;
+			};
+			name = Release;
+		};
+		F4DE9ED11D17C3C300B0560E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = kBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KorhanOzbek.kBoxTests;
+				PRODUCT_NAME = kBox;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kBox.app/Contents/MacOS/kBox";
+			};
+			name = Debug;
+		};
+		F4DE9ED21D17C3C300B0560E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = kBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KorhanOzbek.kBoxTests;
+				PRODUCT_NAME = kBox;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kBox.app/Contents/MacOS/kBox";
+			};
+			name = Release;
+		};
+		F4DE9ED41D17C3C300B0560E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = kBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KorhanOzbek.kBoxUITests;
+				PRODUCT_NAME = kBox;
+				TEST_TARGET_NAME = kBox;
+			};
+			name = Debug;
+		};
+		F4DE9ED51D17C3C300B0560E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = kBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KorhanOzbek.kBoxUITests;
+				PRODUCT_NAME = kBox;
+				TEST_TARGET_NAME = kBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4DE9EA31D17C3C300B0560E /* Build configuration list for PBXProject "kBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DE9ECB1D17C3C300B0560E /* Debug */,
+				F4DE9ECC1D17C3C300B0560E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DE9ECD1D17C3C300B0560E /* Build configuration list for PBXNativeTarget "kBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DE9ECE1D17C3C300B0560E /* Debug */,
+				F4DE9ECF1D17C3C300B0560E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DE9ED01D17C3C300B0560E /* Build configuration list for PBXNativeTarget "kBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DE9ED11D17C3C300B0560E /* Debug */,
+				F4DE9ED21D17C3C300B0560E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DE9ED31D17C3C300B0560E /* Build configuration list for PBXNativeTarget "kBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DE9ED41D17C3C300B0560E /* Debug */,
+				F4DE9ED51D17C3C300B0560E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4DE9EA01D17C3C300B0560E /* Project object */;
+}
