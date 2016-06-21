@@ -4,4 +4,4 @@ This app is a macOS client app for GistBox. It's including embeded web page.
 
 ### Installation
 
-[kBox Download](https://nodejs.org/)
+[kBox Download](https://github.com/dreadful44/kBox__GistBox_Client_App_For_Mac/releases)
