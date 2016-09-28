@@ -23,17 +23,13 @@ class ViewController: NSViewController {
     }
     
     
-    func connectWebPage(urlStr: String) {
-        let url = NSURL(string: urlStr)
-        let req = NSURLRequest(URL: url!)
-        webView.mainFrame.loadRequest(req)
+    func connectWebPage(_ urlStr: String) {
+        let url = URL(string: urlStr)
+        let req = URLRequest(url: url!)
+        webView.mainFrame.load(req)
     }
 
-    override var representedObject: AnyObject? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
+    
     
     override func viewDidAppear() {
         super.viewDidAppear()

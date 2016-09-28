@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F42C446D1D9BA13700AEEB5B /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42C446C1D9BA13700AEEB5B /* menu.swift */; };
 		F4DE9EAC1D17C3C300B0560E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE9EAB1D17C3C300B0560E /* AppDelegate.swift */; };
 		F4DE9EAE1D17C3C300B0560E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DE9EAD1D17C3C300B0560E /* ViewController.swift */; };
 		F4DE9EB01D17C3C300B0560E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DE9EAF1D17C3C300B0560E /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F42C446C1D9BA13700AEEB5B /* menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = "<group>"; };
 		F4DE9EA81D17C3C300B0560E /* kBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DE9EAB1D17C3C300B0560E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4DE9EAD1D17C3C300B0560E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				F4DE9EAF1D17C3C300B0560E /* Assets.xcassets */,
 				F4DE9EB11D17C3C300B0560E /* Main.storyboard */,
 				F4DE9EB41D17C3C300B0560E /* Info.plist */,
+				F42C446C1D9BA13700AEEB5B /* menu.swift */,
 			);
 			path = kBox;
 			sourceTree = "<group>";
@@ -190,13 +193,16 @@
 				TargetAttributes = {
 					F4DE9EA71D17C3C300B0560E = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					F4DE9EB81D17C3C300B0560E = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = F4DE9EA71D17C3C300B0560E;
 					};
 					F4DE9EC31D17C3C300B0560E = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = F4DE9EA71D17C3C300B0560E;
 					};
 				};
@@ -254,6 +260,7 @@
 			files = (
 				F4DE9EAE1D17C3C300B0560E /* ViewController.swift in Sources */,
 				F4DE9EAC1D17C3C300B0560E /* AppDelegate.swift in Sources */,
+				F42C446D1D9BA13700AEEB5B /* menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +398,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KorhanOzbek.kBox;
 				PRODUCT_NAME = kBox;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -403,6 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KorhanOzbek.kBox;
 				PRODUCT_NAME = kBox;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -415,6 +424,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KorhanOzbek.kBoxTests;
 				PRODUCT_NAME = kBox;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kBox.app/Contents/MacOS/kBox";
 			};
 			name = Debug;
@@ -428,6 +438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KorhanOzbek.kBoxTests;
 				PRODUCT_NAME = kBox;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kBox.app/Contents/MacOS/kBox";
 			};
 			name = Release;
@@ -440,6 +451,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KorhanOzbek.kBoxUITests;
 				PRODUCT_NAME = kBox;
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = kBox;
 			};
 			name = Debug;
@@ -452,6 +464,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KorhanOzbek.kBoxUITests;
 				PRODUCT_NAME = kBox;
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = kBox;
 			};
 			name = Release;
